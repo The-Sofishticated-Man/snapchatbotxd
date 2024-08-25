@@ -19,12 +19,13 @@ username.send_keys(USERNMAME + Keys.ENTER)
 time.sleep(5)
 password = driver.find_element(By.NAME, "password")
 password.send_keys(PASSWORD + Keys.ENTER)
-time.sleep(20)
-
+time.sleep(10)
 try:
     notificationPopUp = driver.find_element(By.CLASS_NAME, "gIloE")
     closeButton = driver.find_element(By.CLASS_NAME, "cV8g1")
     closeButton.click()
 except NoSuchElementException:
     pass
+victimElements = driver.find_elements(By.CLASS_NAME, "O4POs")
 
+    
