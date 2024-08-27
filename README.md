@@ -1,2 +1,2 @@
 # snapchatbotxd
-A snapchat webcrawler for catfishing weirdoes
+A snapchat webcrawler for catfishing weirdos
